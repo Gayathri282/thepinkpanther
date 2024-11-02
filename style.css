@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+   font-family: 'Desigers';
+   src: url('Desigers.woff2') format('woff2'),
+        url('Desigers.woff') format('woff'),
+        url('Desigers.TTF') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+
+
+ body,button{
+   font-family: 'Desigers', sans-serif;
+ }
+ /* Navigation */
+ nav{
+    background-color: white;
+    padding: 10px;
+    text-align: right;
+ }
+ a{
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+ }
+
+ /* Hero section */
+ .hero{
+    display: flex;
+    padding: 5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9CAD8;
+ }
+ h1{
+    font-size: 9rem;
+    color: white;
+ }
+ .panther{
+    height: 380px;
+ }
+
+ /* About */
+ .about{
+    background-color: #F0A0B9;
+    color: white;
+    text-align: center;
+    padding: 6rem;
+    padding-bottom: 0;
+ }
+ .inspector{
+    height: 200px;
+    margin-top: 2rem;
+ }
+ p{
+    margin: 3rem;
+ }
+ .btn{
+    display: block;
+    padding: 1rem;
+    background-color: white;
+    border: none;
+    text-align: center;
+    margin: auto;
+ }
+ /* Footer */
+ footer{
+    display: flex;
+    background-color: white;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+ }
+ .paw{
+    height: 2rem;
+ }
